@@ -1,6 +1,16 @@
-# q-matic
+# Q-Matic Kuyruk Yönetim Sistemi
 
-This template should help get you started developing with Vue 3 in Vite.
+Kurumların hizmet noktalarındaki yoğunluğu yönetmek için geliştirilmiş açık kaynak kuyruk yönetim uygulaması. Müşteri memnuniyetini artırır, işlem sürelerini kısaltır.
+
+## Kurulum (macOS & Windows)
+
+1. Git ve Node.js (>=18) kurulu olmalı.
+   - **macOS**: `brew install node`
+   - **Windows**: Node.js LTS sürümünü https://nodejs.org adresinden indirin veya `winget install OpenJS.NodeJS.LTS` komutunu çalıştırın.
+2. Depoyu klonlayın: `git clone <repo-url>`
+3. Ana dizine geçin ve bağımlılıkları yükleyin: `npm install`
+4. Geliştirme sunucusunu başlatın: `npm run dev`  
+   Tarayıcıda `http://localhost:5173` adresini açın.
 
 ## Recommended IDE Setup
 
