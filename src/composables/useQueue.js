@@ -45,6 +45,8 @@ export function useQueue(channelId) {
     myNumber.value = newNumber
     // Durumu tüm cihazlarla senkronize et.
     syncStateFromStorage()
+    // Diğer sekmelere yeni bir numara alındığını bildir.
+    channel.postMessage({ type: 'TAKE', number: newNumber })
     console.log('✅ useQueue: Sıra numarası verildi:', myNumber.value)
   }
 
